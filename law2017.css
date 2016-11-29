@@ -1,0 +1,256 @@
+/* Website template by freewebsitetemplates.com */
+
+body, p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+table, th, td, img {
+    border: 0px;
+}
+
+.clearfix:after, #contents:after {
+    clear: both;
+    content: "";
+    height: 1%;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.shadow {
+    box-shadow: 5px 5px 50px #999 inset;
+}
+
+
+/*------------------------------ HEADER ------------------------------*/
+
+#header {
+    background: linear-gradient(rgba(109,173,196,0.4), rgba(109,173,196,1));
+    border-bottom: 2px solid #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#header .title {
+    font-size: 82px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+#header .subtitle {
+    width: 900px;
+    font-size: 48px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+#header .body {
+    font-size: 28px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+
+#subheader {
+    background-color: rgb(115, 198, 182);
+    border-bottom: 5px solid #e6e6e6;
+    height: 30px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+
+/** Navigation **/
+
+#navigation {
+    display: inline-block;
+    list-style: none;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+#navigation ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    float: left;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#navigation li a {
+    color: #666;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    color: #d7e2e5;
+    color:#ffd;
+}
+
+#navigation li.active a {
+    color: black;
+}
+
+
+/*------------------------------ CONTENTS ------------------------------*/
+
+#contents {
+    min-height: 500px;
+    max-width: 880px;
+    margin-left: 50px;
+    padding: 40px 20px 10px 10px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0 0 20px;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 16px;
+}
+
+h3 {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 4 0 12px;
+}
+
+p {
+    color: #111111;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 0 20px;
+}
+
+p a {
+    color: #39646d;
+    text-decoration: none;
+}
+
+#contents a {
+    color: #39646d;
+    text-decoration: none;
+}
+
+h2 a {
+    color: #39646d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+    color: #111111;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+td a {
+    color: #39646d;
+    text-decoration: none;
+    padding: 0 0 3px 2px;
+    text-align: left;
+}
+
+td a:hover { color: #39646d; }
+td a:visited { color: #333333; }
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { 
+    text-align: center; 
+    color: #39646d;
+    font-weight: bold;
+}
+
+.p_name { width: 200px; }
+.p_affiliation { padding-left: 20px; }
+
+.example {
+    color: #39646d;
+}
+
+.sidebar {
+    width: 350px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.sidebar div {
+    padding-left: 20px;
+    border-left: 3px solid #e6e6e6;
+}
+
+.sidebar table {
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+.sidebar td {
+    padding: 5px;
+    border: 1px solid #006699;
+    font-size: 16px;
+}
+
+.sidebar p {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.sidebar h3 {
+    color: darkblue;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+/*------------------------------ FOOTER ------------------------------*/
+
+#footer {
+    xbackground-color: rgb(143,170,177);
+    xbackground-color: rgb(73,153,182);
+    xbackground-color: rgb(164,204,218);
+    xbackground-color: rgb(109,173,196);
+    background: linear-gradient(rgba(109,173,196,0.6), rgba(109,173,196,0.8)); /*Standard*/
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 4px solid #e6e6e6;
+    padding: 6px 0 0;
+}
+
+#footer > div {
+    height: 20px;
+    padding: 10px 10px 10px 50px;
+}
+
+#footer p {
+    font-size: 18px;
+    line-height: 18px;
+    color: #333;
+    font-style: normal;
+    padding-left: 10px;
+}
+
+
