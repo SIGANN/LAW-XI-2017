@@ -29,8 +29,9 @@ table, th, td, img {
 /*------------------------------ HEADER ------------------------------*/
 
 #header {
-    background: linear-gradient(rgba(109,173,196,0.4), rgba(109,173,196,1));
+    background: linear-gradient(rgba(222,119,0,1), rgba(222,119,0,0.4));
     border-bottom: 2px solid #fff;
+    color: #fff;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -43,7 +44,7 @@ table, th, td, img {
 }
 
 #header .subtitle {
-    width: 900px;
+    /*width: 900px;*/
     font-size: 48px;
     padding-left: 40px;
     padding-bottom: 5px;
@@ -56,8 +57,9 @@ table, th, td, img {
 }
 
 #subheader {
-    background-color: rgb(115, 198, 182);
+    background-color: #333;
     border-bottom: 5px solid #e6e6e6;
+    color: #fff;
     height: 30px;
     padding-left: 60px;
     padding-bottom: 20px;
@@ -89,7 +91,7 @@ table, th, td, img {
 }
 
 #navigation li a {
-    color: #666;
+    color: #eee;
     font-size: 24px;
     line-height: 30px;
     text-decoration: none;
@@ -115,7 +117,7 @@ table, th, td, img {
 }
 
 h1 {
-    color: darkblue;
+    color: #0a0;
     font-family: "Slabo 27px";
     font-size: 30px;
     font-weight: normal;
@@ -124,7 +126,7 @@ h1 {
 }
 
 h2 {
-    color: darkblue;
+    color: #0a0;
     font-size: 24px;
     font-weight: normal;
     line-height: 24px;
@@ -132,7 +134,7 @@ h2 {
 }
 
 h3 {
-    color: darkblue;
+    color: #0a0;
     font-size: 20px;
     font-weight: normal;
     line-height: 18px;
@@ -222,7 +224,7 @@ td a:visited { color: #333333; }
 }
 
 .sidebar h3 {
-    color: darkblue;
+    color: #0a0;
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -231,11 +233,11 @@ td a:visited { color: #333333; }
 /*------------------------------ FOOTER ------------------------------*/
 
 #footer {
-    xbackground-color: rgb(143,170,177);
+    /*xbackground-color: rgb(143,170,177);
     xbackground-color: rgb(73,153,182);
     xbackground-color: rgb(164,204,218);
-    xbackground-color: rgb(109,173,196);
-    background: linear-gradient(rgba(109,173,196,0.6), rgba(109,173,196,0.8)); /*Standard*/
+    xbackground-color: rgb(109,173,196);*/
+    background: linear-gradient(rgba(174,0,38,0.6), rgba(174,0,38,0.8)); /*Standard*/
     border-top: 1px solid #d8d8d8;
     border-bottom: 4px solid #e6e6e6;
     padding: 6px 0 0;
@@ -249,7 +251,7 @@ td a:visited { color: #333333; }
 #footer p {
     font-size: 18px;
     line-height: 18px;
-    color: #333;
+    color: #fff;
     font-style: normal;
     padding-left: 10px;
 }
