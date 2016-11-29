@@ -1,7 +1,7 @@
 /* Website template by freewebsitetemplates.com */
 
 body, p {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -116,6 +116,7 @@ table, th, td, img {
 
 h1 {
     color: darkblue;
+    font-family: "Slabo 27px";
     font-size: 30px;
     font-weight: normal;
     line-height: 30px;
@@ -179,8 +180,8 @@ td a:visited { color: #333333; }
 
 .left { text-align: left; }
 .right { text-align: right; }
-.center { 
-    text-align: center; 
+.center {
+    text-align: center;
     color: #39646d;
     font-weight: bold;
 }
@@ -252,5 +253,3 @@ td a:visited { color: #333333; }
     font-style: normal;
     padding-left: 10px;
 }
-
-
