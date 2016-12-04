@@ -5,7 +5,8 @@ body {
 }
 
 body, p {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    xfont-family: Roboto, Helvetica, Arial, sans-serif; /* screws up on non-asci letters */
+    font-family: "Times New Roman", Times, serif;
 }
 
 table, th, td, img {
@@ -33,7 +34,8 @@ table, th, td, img {
 }
 
 #header .title {
-    /*width: 900px;*/
+    min-width: 1000px;  /* needed to avoid nasty overlapping lines */
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 48px;
     font-weight: bold;
     padding-left: 40px;
@@ -41,6 +43,7 @@ table, th, td, img {
 }
 
 #header .body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 28px;
     padding-left: 40px;
     padding-bottom: 0px;
@@ -75,6 +78,7 @@ table, th, td, img {
 }
 
 #navigation li {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     float: left;
     padding-right: 30px;
     text-align: center;
@@ -119,7 +123,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: normal;
     margin: 4 0 14px;
 }
@@ -138,6 +142,17 @@ a {
 
 a:hover { color: #39646d; }
 a:visited { color: #39646d; }
+
+table.dates {
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+table.dates td {
+    padding: 7px;
+    border: 1px solid #006699;
+    font-size: 18px;
+}
 
 table.committee a {
     text-decoration: none;
@@ -166,7 +181,7 @@ li {
 }
 
 .sidebar {
-    width: 350px;
+    width: 400px;
     padding-top: 25px;
     padding-left: 40px;
     padding-right: 20px;
@@ -185,12 +200,12 @@ li {
 .sidebar td {
     padding: 5px;
     border: 1px solid #006699;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .sidebar p {
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .sidebar h3 {
