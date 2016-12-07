@@ -107,6 +107,7 @@ table, th, td, img {
 
 h1, h2, h3 {
     color: rgb(88,169,63);
+    color: rgb(68,129,48);
     font-family: "Slabo 27px";
 }
 
@@ -219,6 +220,7 @@ li {
 #footer {
     /* color matches color from the logo */
     background: linear-gradient(rgba(88,169,63,0.8), rgba(88,169,63,0.7));
+    background: linear-gradient(rgba(68,129,48,0.8), rgba(68,129,48,0.7));
     xborder-top: 4px solid #999;
     border-top: 2px solid rgba(222,119,0,0.8);
     border-bottom: 4px solid #fff;
