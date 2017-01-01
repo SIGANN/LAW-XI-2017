@@ -50,7 +50,7 @@ import os, sys, shutil
 # these as needed.
 
 PAGES = ['cfp', 'committee', 'index', 'program']
-PAGES = ['cfp', 'committee', 'index']
+PAGES = ['cfp', 'committee', 'index', 'submission']
 
 IMAGES = [os.path.join('images', 'logo', 'LAW11_Logo.svg')]
 
