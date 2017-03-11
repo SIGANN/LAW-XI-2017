@@ -141,6 +141,12 @@ a {
     color: #39646d;
 }
 
+a.paper {
+    font-weight: normal;
+    color: #39646d;
+    text-decoration: None;
+}
+
 a:hover { color: #39646d; }
 a:visited { color: #39646d; }
 
