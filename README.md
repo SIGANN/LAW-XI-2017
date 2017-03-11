@@ -2,7 +2,7 @@
 The 11th Linguistic Annotation Workshop @ EACL 2017 - Valencia, Spain (April)
 
 This is the `master` branch; it contains sources for building the website.
-The website itself lives on the `gh-pages` branch.
+The [website](https://sigann.github.io/LAW-XI-2017) itself lives on the `gh-pages` branch.
 To deploy changes:
 
     $ git checkout master
