@@ -180,6 +180,8 @@ li {
     font-weight: bold;
 }
 
+.indent { margin-left: 20px; }
+
 .p_name { width: 200px; font-size: 18px; }
 .p_affiliation { padding-left: 20px; font-size: 18px; }
 
