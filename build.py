@@ -77,7 +77,8 @@ if __name__ == '__main__':
     site = os.sys.argv[1]
 
 	# delete old files
-    shutil.rmtree(site)
+    if os.path.exists(site):
+        shutil.rmtree(site)
     
     os.makedirs(site)
     
